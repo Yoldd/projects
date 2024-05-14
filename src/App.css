@@ -1,3 +1,71 @@
 .App {
   text-align: center;
 }
+
+input{
+  height: 40px;
+display: inline-block;
+  font-size: large;
+}
+body{
+  margin-top: 10vh;
+}
+label{
+  font-size: large;
+}
+button{
+  font-size: large;
+  padding: 10px;
+}
+ul{
+  list-style: none;
+}
+h3{
+  display: inline-block;
+}
+body{
+  font-family: "Comic Neue", serif;
+  /* font-family: "Comic Neue", cursive; */
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+/*font styles 
+*/
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}

@@ -1,8 +1,19 @@
 import React from 'react'
+import Element from './Element'
 
-const List = () => {
+const List = ({item_list, deleted , edit}) => {
   return (
-    <div>List</div>
+    <div>
+        <ul>
+          
+           <Element item_list={item_list} deleted ={deleted}
+           edit = {edit}/>
+            
+           
+          
+        
+        </ul>
+    </div>
   )
 }
 

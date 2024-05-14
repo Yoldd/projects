@@ -2,8 +2,11 @@ import React from 'react'
 
 const Form = ({item,
      setItem,
-      set_item_list, 
-    onSubmit}) => {
+    onSubmit,
+  isEditing,
+setEditing,
+back,
+doneEdit}) => {
 
     //  functions and handlers
 
@@ -37,8 +40,16 @@ const Form = ({item,
             <input type='text'
             value={item.price}
             name='price'
-            onChange={onHandleChange}/>
-          <button type='submit'>add</button>
+            onChange={onHandleChange}/> 
+            {(isEditing) ?
+            <> <button className='btn btn-outline-success' type='submit'>done</button> {" "}
+          <button className='btn btn-outline-danger' onClick={back} >back</button> 
+          </>
+          :
+
+          <button className='btn btn-success' type='submit'> add</button> 
+          
+            }
         </form>
     </div>
   )
